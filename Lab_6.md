@@ -136,3 +136,7 @@ findMin(number, minimum)
 	2. **Inside** the while loop
 5. Identify and write the names of **value and/or reference** parameters in the following functions. Write the word *none* if not applicable.
 
+|                      | getNum | findMin |
+| -------------------- | ------ | ------- |
+| value parameters     |        |         |
+| reference parameters |        |         |
