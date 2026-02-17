@@ -1,5 +1,5 @@
-## Polymorphism
-***
+# Polymorphism
+
 Polymorphism is another name for function overloading. As we discussed in class a program can have several functions with the same name. But each function must have different types or different numbers of formal parameters. For this part of the lab assignment, you need to figure out which function gets called and the order of the functions that gets called manually. The following program has **nine functions** that take different number and different types of parameters and calculate the sum of the numbers passed into the functions.
 
 ```c++
@@ -109,31 +109,66 @@ double sum(double a, double b, double c, double d, double e, double f)
 }
 ```
 
+## Questions (10 pts each)
+
 1. For the **first** **cout** statement, which **sum** is called?
+
+>Answer:
+
 2. For the **second** **cout** statement, which **sum** is called?
+
+>Answer:
+
 3. For the **third** **cout** statement, which functions are called? In this case, **give the order that the functions are called as well.**
+
+>Answer:
+
 4. For the **fourth** **cout** statement, which functions are called? In this case, **give the order that the functions are called as well.**
+
+>Answer:
+
 5. For the **fifth** **cout** statement, which functions are called? **In this case, give the order that the functions are called as well.**
 
-## Parameter Passing
-***
-First copy the **find_min.cc** from **/home/nabukama/2400/lab6** and place it in the **repository** directory. Then read and understand the program. Compile and run with **many different sets** of integer values. For example, enter list of numbers with the minimum value at middle, at the end etc.
+>Answer:
+
+# Parameter Passing
+
+Read and understand find_min.cc. Compile and run with **many different sets** of integer values. For example, enter list of numbers with the minimum value at middle, at the end etc.
 
 For the following questions, you will need to make changes, save, and recompile the program as needed.
 
-1. **Explain** what happens if you **remove** the **&** sgn from the getNum function **declaration** (prototype) and the **function heading.** **Do not forget to PUT THE & back before moving on.***
+1. **Explain** what happens if you **remove** the **&** sign from the **findMin** function **declaration** (prototype) and the **function heading.** **Do not forget to PUT THE & back before moving on.***
+
+>Answer:
+
 2. Similarly, **explain** what happens if you remove the **&** sign from the **getNum** function **declaration** (prototype) and the function heading. **Don’t forget to put the & back before moving on the next question.**
+
+>Answer:
+
 3. Explain what happens if the change the order of the **actual arguments** in the **function call**
-```
+
+```c++
 findMin(minimum, number);
 ```
+
 to
-```
+
+```c++
 findMin(number, minimum)
 ```
+
+>Answer:
+
 4. Explain what happens if you **remove the call** to the function **getNum(number)** ; Coment (//) this statement out and run the program to find out the outcome. **Remove the // before moving on to the next question (4 sub 2)**
-	1. **Before** the while loop
-	2. **Inside** the while loop
+
+a. **Before** the while loop
+
+>Answer:
+
+b. **Inside** the while loop
+
+>Answer:
+
 5. Identify and write the names of **value and/or reference** parameters in the following functions. Write the word *none* if not applicable.
 
 |                      | getNum | findMin |
