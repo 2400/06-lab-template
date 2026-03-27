@@ -1,6 +1,6 @@
 # Polymorphism
 
-Polymorphism is another name for function overloading. As we discussed in class a program can have several functions with the same name. But each function must have different types or different numbers of formal parameters. For this part of the lab assignment, you need to figure out which function gets called and the order of the functions that gets called manually. The following program has **nine functions** that take different number and different types of parameters and calculate the sum of the numbers passed into the functions.
+Polymorphism is another name for function overloading. As we discussed in class, a program can have several functions with the same name. However, each function must have different types or different numbers of formal parameters. For this part of the lab assignment, you need to figure out which function gets called and the order of the functions that gets called manually. The following program has **nine functions** that take different number and different types of parameters and calculate the sum of the numbers passed into the functions.
 
 ```c++
 #include <iostream>
@@ -110,6 +110,8 @@ double sum(double a, double b, double c, double d, double e, double f)
 ```
 
 ## Questions (10 pts each)
+
+*Please answer with the commented names above each function (ex, first sum)*
 
 1. For the **first** **cout** statement, which **sum** is called?
 
